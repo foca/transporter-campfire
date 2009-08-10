@@ -15,7 +15,7 @@ library.
         :campfire => {
           :subdomain => "myaccount",     # account/subdomain your campfire uses
           :ssl       => true,            # either true or false (optional)
-          :proxy     => "proxy url",     # see Tinder's API docs
+          :proxy     => "proxy url",     # see Tinder's API docs (optional)
           :login     => "your email",
           :password  => "your password",
           :room      => "room name"
