@@ -1,0 +1,33 @@
+= Transporter::Campfire
+
+Notify your Campfire from Transporter
+
+See Transporter[http://github.com/foca/transporter] for a description of the
+library.
+
+== How to use
+
+    require "transporter/campfire"
+
+    Transporter.deliver(
+      :message => { :short => "..." },
+      :using   => {
+        :campfire => {
+          :subdomain => "myaccount",     # account/subdomain your campfire uses
+          :ssl       => true,            # either true or false (optional)
+          :proxy     => "proxy url",     # see Tinder's API docs
+          :login     => "your email",
+          :password  => "your password",
+          :room      => "room name"
+        }
+      }
+    )
+
+== Install
+
+    gem install transporter-campfire
+
+== Credits
+
+Author:: Nicolás Sanguinetti (foca[http://github.com/foca])
+License:: MIT (see LICENSE file)
