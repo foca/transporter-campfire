@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email   = "contacto@nicolassanguinetti.info"
 
   s.require_paths     = ["lib"]
-  s.rubyforge_project = "integrity"
+  s.rubyforge_project = "transporter"
   s.has_rdoc          = true
   s.rubygems_version  = "1.3.1"
 
